@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://superkiddos.github.io/superkiddos-dental-o-00b66/sitemap.xml
+
+# Block common bot paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /*.log$
+
+# SEO optimizations
+Crawl-delay: 1
